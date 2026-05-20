@@ -1,1 +1,8 @@
-*.env
+# Ignoriere Tokens und lokale Configs
+.env
+**/.env
+**/.DS_Store
+node_modules/
+
+# Datenbank-Dumps (außer du willst sie explizit pushen)
+# *.sql
